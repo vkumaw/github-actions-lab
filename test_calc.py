@@ -1,4 +1,3 @@
-Python
 from calc import add
 
 
