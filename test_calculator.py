@@ -19,3 +19,7 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(10, 0) 
+
+def test_exponent():
+    assert exponent(2, 3) == 8 
+    assert exponent(5, 0) == 1
